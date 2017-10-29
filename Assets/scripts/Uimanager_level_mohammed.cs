@@ -13,7 +13,7 @@ public class Uimanager_level_mohammed : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if (PlayerPrefs.HasKey("blue") && PlayerPrefs.HasKey("green") ){
+		if (PlayerPrefs.GetString("blue") == "true" && PlayerPrefs.GetString("green") == "true" ){
 			Application.LoadLevel("DarkLevel");
 		
 		}

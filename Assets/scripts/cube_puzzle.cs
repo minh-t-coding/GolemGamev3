@@ -9,6 +9,8 @@ public class cube_puzzle : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		PlayerPrefs.SetString ("blue","f");
+		PlayerPrefs.SetString ("green","f");
 		
 	}
 	
