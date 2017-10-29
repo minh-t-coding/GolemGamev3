@@ -9,6 +9,7 @@ TagManager:
   - slider
   - stopper
   - water
+  - nextLevel
   layers:
   - Default
   - TransparentFX
