@@ -4212,6 +4212,11 @@ Prefab:
       propertyPath: jumpingforce
       value: 1000
       objectReference: {fileID: 0}
+    - target: {fileID: 108732442241226024, guid: 0e6de4b2647be7240b55da0fc5b41319,
+        type: 2}
+      propertyPath: m_Range
+      value: 30
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0e6de4b2647be7240b55da0fc5b41319, type: 2}
   m_IsPrefabParent: 0

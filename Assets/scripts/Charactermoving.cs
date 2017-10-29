@@ -26,7 +26,7 @@ public class Charactermoving : MonoBehaviour {
 		rb = GetComponent<Rigidbody>();
 		ani = GetComponent<Animator> ();
 	}
-	
+
 	// Update is called once per frame
 	void FixedUpdate ()
 	{	/*if (!Physics.Raycast(transform.position,Vector3.down)){
