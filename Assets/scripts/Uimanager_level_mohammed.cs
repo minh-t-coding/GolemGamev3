@@ -14,7 +14,7 @@ public class Uimanager_level_mohammed : MonoBehaviour {
 	void Update () {
 
 		if (PlayerPrefs.HasKey("blue") && PlayerPrefs.HasKey("green") ){
-			Application.LoadLevel(Application.loadedLevel);
+			Application.LoadLevel("DarkLevel");
 		
 		}
 		
