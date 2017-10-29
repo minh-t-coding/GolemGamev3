@@ -6,10 +6,12 @@ public class endlevel : MonoBehaviour {
 	//[SerializeField]
 	//public string nextName;
 	//public GameObject crate;
-	[SerializeField]
-	public GameObject buttonthing;
+	//[SerializeField]
+	//public string levelName;
 	//[SerializeField]
 	//public 
+	[SerializeField]
+	public string LevelName;
 
 
 	//void OnTriggerEnter(Collider other){
@@ -19,13 +21,10 @@ public class endlevel : MonoBehaviour {
 	//	}
 	//}
 
-	public void OnCollisionEnter(Collider col){
-		if (col.CompareTag("Player")) {
-			Debug.Log ("in");
-			buttonthing.SetActive (true);
+	public void OnTriggerEnter(Collider other){
+		if (other.gameObject.CompareTag ("Player")) {
+			Application.LoadLevel (LevelName);
 		}
 
 	}
-
-
 }
